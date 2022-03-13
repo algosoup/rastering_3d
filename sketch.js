@@ -1,7 +1,14 @@
+function preload() {
+let img = loadImage('https://images.freeimages.com/images/large-previews/a1a/rose-1452862.jpg'); 
+}
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(900, 900);
+//  let img = createImage(100, 100);
+//pic = createImg('https://images.freeimages.com/images/large-previews/a1a/rose-1452862.jpg');
 }
 
 function draw() {
-  background(220);
+  background('#f1f1f1');
+  image(img, 0,0,width,height); 
 }
